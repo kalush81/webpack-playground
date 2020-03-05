@@ -21,16 +21,10 @@ module.exports = {
         }
       },
       {
-        test: /\.css$/i,
-        use: [
-          {
-            loader: "style-loader"
-          },
-          {
-            loader: "css-loader"
-          }
-        ]
-      },
+         test: /\.css$/,
+                 use: ['style-loader', 'css-loader'],
+               },
+      
       {
         test: /\.html$/i,
         loader: "html-loader"

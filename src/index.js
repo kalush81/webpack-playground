@@ -1,4 +1,5 @@
 //import "./utilities";
+import './style.css';
 
 import square, { add, name } from "./utilities";
 
